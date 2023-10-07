@@ -8,7 +8,7 @@
     border-radius: 5px;
     border: 1px solid #DEDEDE;
     background-color: #F9F9F9;
-    padding: 40.1px;
+    padding: 40px;
 }
 
 .banner-img-wrapper{
@@ -25,9 +25,6 @@
 }
 
 .button-kirim{
-    border-radius: 3px;
-    border: 1px solid #BFBFBF;
-    background-color: #FF3131;
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 30px;
@@ -58,11 +55,15 @@ body{
 }
 
 @media only screen and (max-width: 550px) {
-    body{
+    /* body{
         padding-right: 15px;
-    }
+    } */
 
     .button-kirim{
         width: 100%;
+    }
+
+    .form-wrapper{
+        padding: 20px;
     }
 }
